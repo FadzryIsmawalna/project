@@ -1,0 +1,90 @@
+body{
+    background-image: url('b.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form{
+    font-family: comic sans ms;
+    font-size: 12pt;
+    color: rgb(31, 212, 248); 
+}
+
+label{
+    font-weight: bold;
+}
+
+table{
+    width: 50%;
+    margin: 15px auto;
+    
+    font-family: comic sans ms;
+    font-size: 10pt;
+    color: rgb(31, 212, 248); 
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(31, 212, 248);
+    border-radius: 15px;
+
+}
+
+td{
+    border: 1px solid rgb(31, 212, 248);
+    text-align: center;
+    padding: 8px 15px;
+}
+
+input[type="text"],input[type="number"]{
+    width:30%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(31, 212, 248);
+    border-radius: 4px;
+    font-size: 10pt;
+    font-family: comic sans ms;
+    text-align: center;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: rgb(26, 16, 100);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 10pt;
+    font-family: comic sans ms;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: rgb(31, 212, 248);
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: rgb(31, 212, 248);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
